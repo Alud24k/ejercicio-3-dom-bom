@@ -15,9 +15,19 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Ejercicio 3 TP</title>
   </head>
-  <body>
+  <body data-bs-theme="dark">
     <header></header>
-    <main></main>
+    <main class="container">
+      <section>
+        <form class="d-flex flex-column align-items-center">
+          <label for="tarea" class="display-3 mt-4 fw-semibold"
+            >Ingrese la tarea</label
+          >
+          <input class="mt-4 fs-4" type="text" id="tarea" required />
+          <button class="btn btn-primary mt-3">Enviar tarea</button>
+        </form>
+      </section>
+    </main>
     <footer></footer>
 
     <script
